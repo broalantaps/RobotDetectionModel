@@ -8,14 +8,12 @@
 #include <opencv2/opencv.hpp>
 #include <openvino/openvino.hpp>
 #include <vector>
-#include "Armor.h"
 
 //用前先根据模型修改好要修改的地方
 
 using namespace cv;
 using namespace std;
 
-#define mean
 
 struct Object
 {
